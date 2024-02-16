@@ -1,38 +1,72 @@
 .App {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.section1 {
+  background-image:url("./assets/bg.png");
+  background-position: center;
+  text-align: center;
+}
+.logo {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+button {
+  margin-top:10px;
+}
+.section2 {
+  background-image:url("./assets/bg2.png");
+  background-position: center;
+  text-align: center;
+}
+.section3 {
+  background-image:url("./assets/bg3.png");
+  background-position: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button {
+  font-size: 32px;
+  font-weight: 900;
+  background-color:#E30613;
+  color: #fff;
+  padding: 20px 50px;
+  border:0;
+  border-radius: 10px;
+}
+.red {
+  color: #E30613;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.socialsBlock {
+  margin-top:30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.socialsBlock img {
+  padding: 0 10px;
+  margin-bottom: 280px;
+}
+.heading1 {
+  padding:500px 0px 300px 0px;
+  margin:0;
+  font-size:82px;
+}
+.heading2 {
+  margin:0;
+  color:#fff;
+  font-size: 82px;
+}
+.subheading {
+  color:#fff;
+  padding:0px 20px;
+  font-size:42px;
+}
+.flexBox {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding:0px 20px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.outFlex {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
